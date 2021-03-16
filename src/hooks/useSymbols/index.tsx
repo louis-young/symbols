@@ -12,5 +12,5 @@ export const useSymbols = (searchQuery: string) => {
     setSymbols(matchingSymbols);
   }, [searchQuery]);
 
-  return { symbols };
+  return symbols;
 };
