@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Header } from "./components/Header";
 import { SymbolGrid } from "./components/SymbolGrid";
-import { getMatchingSymbols } from "./utilities/get-matching-symbols";
+import { getMatchingSymbols } from "./utilities/getMatchingSymbols";
 import type { Symbol } from "./types/symbol";
 import symbolsDatabase from "./data/symbols.json";
 
