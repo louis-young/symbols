@@ -1,22 +1,32 @@
 [
   {
     "name": "Copyright",
-    "symbol": "©"
+    "symbol": "©",
+    "categories": ["symbols", "popular"]
   },
   {
-    "name": "Cloud",
-    "symbol": "☁"
+    "name": "Double Left Quote",
+    "symbol": "“",
+    "categories": ["punctuation"]
   },
   {
-    "name": "Warning",
-    "symbol": "⚠"
-  },
-  {
-    "name": "Envelope",
-    "symbol": "✉"
+    "name": "Left Arrow",
+    "symbol": "←",
+    "categories": ["arrows", "popular"]
   },
   {
     "name": "Pound Sign",
-    "symbol": "£"
+    "symbol": "£",
+    "categories": ["currency"]
+  },
+  {
+    "name": "Plus Sign",
+    "symbol": "+",
+    "categories": ["math"]
+  },
+  {
+    "name": "Minus Sign",
+    "symbol": "−",
+    "categories": ["math"]
   }
 ]

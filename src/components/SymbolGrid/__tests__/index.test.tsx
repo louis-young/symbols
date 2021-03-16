@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { SymbolGrid } from "..";
 
 const defaultSymbolGridProps = {
-  symbols: [{ name: "__NAME__", symbol: "__SYMBOL__" }],
+  symbols: [{ name: "__NAME__", symbol: "__SYMBOL__", categories: ["__CATEGORY__"] }],
 };
 
 describe("SymbolGrid", () => {

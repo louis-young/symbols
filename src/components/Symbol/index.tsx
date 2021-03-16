@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Symbol as SymbolProps } from "../../types/symbol";
 import { RECENTLY_COPIED_DURATION } from "./constants";
+import type { SymbolProps } from "./types";
 
 export const Symbol = ({ name, symbol }: SymbolProps) => {
   const [hasRecentlyBeenCopied, setHasRecentlyBeenCopied] = useState(false);
