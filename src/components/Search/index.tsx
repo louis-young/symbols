@@ -9,7 +9,7 @@ export const Search = ({ searchQuery, onSearchQueryChange }: SearchProps) => {
   };
   return (
     <form>
-      <input type="text" name="search" required value={searchQuery} onChange={handleChange} />
+      <input type="text" name="search" placeholder="Search" required value={searchQuery} onChange={handleChange} />
     </form>
   );
 };
