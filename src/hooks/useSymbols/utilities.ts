@@ -1,4 +1,4 @@
-import symbolsDatabase from "../data/symbols.json";
+import symbolsDatabase from "../../data/symbols.json";
 
 export const getMatchingSymbols = (searchQuery: string) => {
   const matchingSymbols = symbolsDatabase.filter((symbol) =>
