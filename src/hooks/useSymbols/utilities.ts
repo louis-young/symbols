@@ -1,9 +1,13 @@
-import symbolsDatabase from "../../data/symbols.json";
+import symbols from "../../data/symbols.json";
 
 export const getMatchingSymbols = (searchQuery: string) => {
-  const matchingSymbols = symbolsDatabase.filter((symbol) =>
-    symbol.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const matchingSymbols = symbols.filter(({ name, symbol }) => {
+    const searchQueryMatchesName = name.toLowerCase().includes(searchQuery.toLowerCase());
+
+    const searchQueryMatchesSymbol = symbol.includes(searchQuery);
+
+    return searchQueryMatchesName || searchQueryMatchesSymbol;
+  });
 
   return matchingSymbols;
 };
