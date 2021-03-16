@@ -6,5 +6,3 @@ export enum SymbolCategories {
   Currency = "currency",
   Math = "math",
 }
-
-// export type SymbolCategories = "popular" | "punctuation" | "symbols" | "arrows" | "currency" | "math";
