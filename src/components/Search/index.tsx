@@ -8,7 +8,7 @@ export const Search = ({ searchQuery, onSearchQueryChange }: SearchProps) => {
     onSearchQueryChange(newSearchQuery);
   };
   return (
-    <form className="w-full max-w-3xl mr-auto">
+    <form className="w-full md:w-96 max-w-3xl mr-auto">
       <input
         type="text"
         name="search"

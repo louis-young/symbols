@@ -27,8 +27,8 @@ export const Symbol = ({ name, symbol }: SymbolProps) => {
         </p>
       )}
 
-      <button onClick={handleCopyClick} className="block p-6 h-full w-full flex flex-col items-center">
-        <p className="block text-4xl">{symbol}</p>
+      <button onClick={handleCopyClick} className="p-6 h-full w-full flex flex-col items-center">
+        <p className="block text-5xl mb-4">{symbol}</p>
 
         <p className="block text-sm mt-auto">{name}</p>
       </button>

@@ -3,7 +3,7 @@ import type { SymbolGridProps } from "./types";
 
 export const SymbolGrid = ({ symbols }: SymbolGridProps) => {
   return (
-    <ul className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-4 pr-12 pb-12">
+    <ul className="w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8 gap-4 p-6 pt-0 md:pt-4 md:pl-0 md:pr-12 md:pb-12 lg:pr-12 lg:pb-12">
       {symbols.map(({ name, symbol }) => (
         <Symbol name={name} symbol={symbol} key={name} />
       ))}
