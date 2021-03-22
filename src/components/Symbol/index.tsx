@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import { useState } from "react";
 import { RECENTLY_COPIED_DURATION } from "./constants";
 import type { SymbolProps } from "./types";
@@ -19,16 +20,17 @@ export const Symbol = ({ name, symbol }: SymbolProps) => {
     };
   };
 
-  return (
-    <li className="bg-white shadow-sm rounded-sm relative">
-      {hasRecentlyBeenCopied && (
-        <p className="absolute top-0 right-0 bg-green-400 opacity-80 text-white text-center text-sm p-2 rounded-sm">
-          Copied
-        </p>
-      )}
+  const recentlyCopiedClasses = classNames({
+    "absolute top-1 right-1 bg-green-400 text-white text-center text-sm p-2 rounded-sm transition duration-300 opacity-0": true,
+    "opacity-80 z-20": hasRecentlyBeenCopied,
+  });
 
-      <button onClick={handleCopyClick} className="p-6 h-full w-full flex flex-col items-center">
-        <p className="block text-5xl mb-4">{symbol}</p>
+  return (
+    <li className="bg-white shadow-sm rounded-sm relative transition hover:text-blue-700">
+      <p className={recentlyCopiedClasses}>Copied</p>
+
+      <button onClick={handleCopyClick} className="p-6 h-full w-full flex flex-col items-center relative z-10">
+        <p className="block text-5xl mb-4 text-black">{symbol}</p>
 
         <p className="block text-sm mt-auto">{name}</p>
       </button>
