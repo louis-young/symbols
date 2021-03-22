@@ -4,8 +4,8 @@ import type { SymbolCategories } from "../../types/symbolCategories";
 
 const symbols: Symbol[] = database;
 
-export const getSymbolsByCategory = (category: SymbolCategories) => {
-  const symbolsByCategory = symbols.filter(({ categories }) => categories.includes(category));
+export const getSymbolsByCategory = (selectedCategory: SymbolCategories) => {
+  const symbolsByCategory = symbols.filter(({ categories }) => categories.includes(selectedCategory));
 
   return symbolsByCategory;
 };

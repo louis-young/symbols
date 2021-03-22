@@ -1,5 +1,5 @@
 import { SymbolCategories } from "../../types/symbolCategories";
-import { Category } from "../Category/Category";
+import { Category } from "../Category";
 import { isActiveCategory } from "./utilities";
 import type { CategoriesProps } from "./types";
 import { popular, symbols, punctuation, arrows, currency, math } from "../../assets/icons";
