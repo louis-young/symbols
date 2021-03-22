@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Categories } from "./components/Categories";
 import { Header } from "./components/Header";
+import { Sidebar } from "./components/Sidebar";
 import { SymbolGrid } from "./components/SymbolGrid";
 import { useSymbols } from "./hooks/useSymbols";
 import { SymbolCategories } from "./types/symbolCategories";
@@ -21,12 +21,14 @@ export const App = () => {
   };
 
   return (
-    <>
+    <section className="bg-gray-50 min-h-screen">
       <Header searchQuery={searchQuery} onSearchQueryChange={onSearchQueryChange} />
 
-      <SymbolGrid symbols={symbols} />
+      <main className="flex gap-12 items-start">
+        <Sidebar category={category} onCategoryChange={onCategoryChange} />
 
-      <Categories category={category} onCategoryChange={onCategoryChange} />
-    </>
+        <SymbolGrid symbols={symbols} />
+      </main>
+    </section>
   );
 };
