@@ -1,5 +1,5 @@
 import type { Symbol } from "../../types/symbol";
 
-export interface SymbolGridProps {
+export interface SymbolsProps {
   symbols: Symbol[];
 }

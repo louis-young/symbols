@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
-import { SymbolGrid } from "./components/SymbolGrid";
+import { Symbols } from "./components/Symbols";
 import { Footer } from "./components/Footer/Footer";
 import { useSymbols } from "./hooks/useSymbols";
 import { SymbolCategories } from "./types/symbolCategories";
@@ -32,7 +32,7 @@ export const App = () => {
       <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start">
         <Sidebar selectedCategory={selectedCategory} onSelectedCategoryChange={onSelectedCategoryChange} />
 
-        <SymbolGrid symbols={symbols} />
+        <Symbols symbols={symbols} />
       </main>
 
       <Footer />
