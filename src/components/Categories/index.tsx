@@ -1,6 +1,6 @@
 import { SymbolCategories } from "../../types/symbolCategories";
 import type { CategoriesProps } from "./types";
-import classNames from "classnames";
+import { Category } from "../Category/Category";
 
 const categories = [
   { name: "Popular", category: SymbolCategories.Popular },
@@ -18,20 +18,15 @@ export const Categories = ({ category, onCategoryChange }: CategoriesProps) => {
 
   return (
     <ul className="md:w-36 lg:w-52">
-      {categories.map(({ name, category }) => {
-        const categoryClasses = classNames({
-          "block w-full text-left px-8 py-4 text-gray-600 font-semibold transition-colors leading-none": true,
-          "text-purple-500": isActiveCategory(category),
-        });
-
-        return (
-          <li key={category}>
-            <button onClick={() => onCategoryChange(category)} className={categoryClasses}>
-              {name}
-            </button>
-          </li>
-        );
-      })}
+      {categories.map(({ name, category }) => (
+        <Category
+          key={category}
+          name={name}
+          category={category}
+          isActive={isActiveCategory(category)}
+          onCategoryChange={onCategoryChange}
+        />
+      ))}
     </ul>
   );
 };
