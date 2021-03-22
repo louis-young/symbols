@@ -1,7 +1,5 @@
 import type { SymbolCategories } from "../../types/symbolCategories";
 
-export interface HeaderProps {
-  searchQuery: string;
-  onSearchQueryChange: (newSearchQuery: string) => void;
+export interface LogoProps {
   onSelectedCategoryChange: (newSelectedCategory: SymbolCategories) => void;
 }

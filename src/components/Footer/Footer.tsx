@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <footer>
-      <p className="text-gray-600 pl-8 md:pl-0 pb-12 text-left text-sm md:text-center">
+      <p className="text-gray-600 pl-14 md:pl-0 pb-12 text-left text-sm md:text-center">
         Created by{" "}
         <a
           className="text-blue-700 font-semibold hover:underline"
