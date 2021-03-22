@@ -30,7 +30,7 @@ export const Search = ({ searchQuery, onSearchQueryChange }: SearchProps) => {
           className="absolute top-1/2 right-2 transform -translate-y-1/2 text-gray-600 text-sm font-bold w-8 h-8 rounded-full bg-blue-50 transition hover:bg-blue-100"
           onClick={handleClearSearchQueryClick}
         >
-          ✕
+          ❌
         </button>
       )}
     </form>
