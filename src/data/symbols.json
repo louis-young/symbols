@@ -1,32 +1,85 @@
 [
   {
-    "name": "Copyright",
-    "symbol": "©",
-    "categories": ["symbols", "popular"]
-  },
-  {
-    "name": "Double Left Quote",
     "symbol": "“",
+    "name": "Double Left Quotation Mark",
     "categories": ["punctuation"]
   },
   {
-    "name": "Left Arrow",
-    "symbol": "←",
-    "categories": ["arrows", "popular"]
+    "symbol": "”",
+    "name": "Double Right Quotation Mark",
+    "categories": ["punctuation"]
   },
   {
-    "name": "Pound Sign",
-    "symbol": "£",
-    "categories": ["currency"]
+    "symbol": "‘",
+    "name": "Single Left Quotation Mark",
+    "categories": ["punctuation"]
   },
   {
-    "name": "Plus Sign",
-    "symbol": "+",
-    "categories": ["math"]
+    "symbol": "’",
+    "name": "Single Right Quotation Mark & apostrophe",
+    "categories": ["punctuation"]
   },
+  { "symbol": "–", "name": "Endash", "categories": ["punctuation"] },
   {
-    "name": "Minus Sign",
-    "symbol": "−",
-    "categories": ["math"]
-  }
+    "symbol": "❛",
+    "name": "Heavy Opening Single Quote",
+    "categories": ["punctuation"]
+  },
+  { "symbol": "❜", "name": "Heavy Closed Single Quote", "categories": ["punctuation"] },
+  { "symbol": "❝", "name": "Heavy Quotation", "categories": ["punctuation"] },
+  { "symbol": "❞", "name": "Heavy Closed Quotation", "categories": ["punctuation"] },
+  { "symbol": "ℹ", "name": "Information", "categories": ["punctuation"] },
+  { "symbol": "¶", "name": "Paragraph", "categories": ["punctuation"] },
+  { "symbol": "§", "name": "Section", "categories": ["punctuation"] },
+  { "symbol": "※", "name": "Reference Mark", "categories": ["punctuation"] },
+  { "symbol": "¨", "name": "Umlaut", "categories": ["punctuation"] },
+  { "symbol": "¦", "name": "Broken Vertical Bar", "categories": ["punctuation"] },
+  { "symbol": "†", "name": "Dagger", "categories": ["punctuation"] },
+  { "symbol": "‡", "name": "Double Dagger", "categories": ["punctuation"] },
+  { "symbol": "¬", "name": "Not Sign", "categories": ["punctuation"] },
+  { "symbol": "´", "name": "Account Accent", "categories": ["punctuation"] },
+  { "symbol": "µ", "name": "Micro", "categories": ["punctuation"] },
+  { "symbol": "·", "name": "Middle Dot", "categories": ["punctuation"] },
+  { "symbol": "¸", "name": "Spacing Cedilla", "categories": ["punctuation"] },
+  { "symbol": "º", "name": "Masculine Ordinal Indicator", "categories": ["punctuation"] },
+  { "symbol": "»", "name": "Double Right-Pointing Angle Quatation Mark", "categories": ["punctuation"] },
+  { "symbol": "¿", "name": "Inverted Question Mark", "categories": ["punctuation"] },
+  { "symbol": "―", "name": "Horizontal Bar", "categories": ["punctuation"] },
+  { "symbol": "‖", "name": "Double Vertical Line", "categories": ["punctuation"] },
+  { "symbol": "‗", "name": "Double Low Line", "categories": ["punctuation"] },
+  {
+    "symbol": "‟",
+    "name": "Double High-Reversed-9 Quotation Mark",
+    "categories": ["punctuation"]
+  },
+  { "symbol": "„", "name": "Double Low-9 Quotation Mark", "categories": ["punctuation"] },
+  { "symbol": "‚", "name": "Single Low-9 Quotation Mark", "categories": ["punctuation"] },
+  {
+    "symbol": "‛",
+    "name": "Single High-Reversed-9 Quotation Mark",
+    "categories": ["punctuation"]
+  },
+  { "symbol": "•", "name": "Bullet", "categories": ["punctuation"] },
+  { "symbol": "‣", "name": "Triangular Bullet", "categories": ["punctuation"] },
+  { "symbol": "․", "name": "One Dot Leader", "categories": ["punctuation"] },
+  { "symbol": "‥", "name": "Two Dot Leader", "categories": ["punctuation"] },
+  { "symbol": "…", "name": "Horizontal Ellipsis", "categories": ["punctuation"] },
+  { "symbol": "‼", "name": "Double Exclamation Mark", "categories": ["punctuation"] },
+  { "symbol": "⁇", "name": "Double Question Mark", "categories": ["punctuation"] },
+  { "symbol": "‿", "name": "Undertie", "categories": ["punctuation"] },
+  { "symbol": "⁀", "name": "Character Tie", "categories": ["punctuation"] },
+  { "symbol": "⁁", "name": "Caret Insertion Point", "categories": ["punctuation"] },
+  { "symbol": "⁂", "name": "Asterism", "categories": ["punctuation"] },
+  { "symbol": "⁋", "name": "Reversed Pilcrow Sign", "categories": ["punctuation"] },
+  { "symbol": "⁌", "name": "Black Left Bullet", "categories": ["punctuation"] },
+  { "symbol": "⁍", "name": "Black Right Bullet", "categories": ["punctuation"] },
+  { "symbol": "⁎", "name": "Low Asterisk", "categories": ["punctuation"] },
+  { "symbol": "⁐", "name": "Close Up", "categories": ["punctuation"] },
+  { "symbol": "⁚", "name": "Two Dot", "categories": ["punctuation"] },
+  { "symbol": "⁖", "name": "Three Dot", "categories": ["punctuation"] },
+  { "symbol": "⁘", "name": "Four Dot", "categories": ["punctuation"] },
+  { "symbol": "⁙", "name": "Five Dot", "categories": ["punctuation"] },
+  { "symbol": "⁜", "name": "Dotted Cross", "categories": ["punctuation"] },
+  { "symbol": "⁝", "name": "Tricolon", "categories": ["punctuation"] },
+  { "symbol": "⁞", "name": "Vertical Four Dots", "categories": ["punctuation"] }
 ]
