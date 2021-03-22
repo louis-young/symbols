@@ -9,16 +9,16 @@ import { SymbolCategories } from "./types/symbolCategories";
 export const App = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const [category, setCategory] = useState<SymbolCategories>(SymbolCategories.Popular);
+  const [selectedCategory, setSelectedCategory] = useState<SymbolCategories>(SymbolCategories.Popular);
 
-  const symbols = useSymbols(searchQuery, category);
+  const symbols = useSymbols(searchQuery, selectedCategory);
 
   const onSearchQueryChange = (newSearchQuery: string) => {
     setSearchQuery(newSearchQuery);
   };
 
-  const onCategoryChange = (newCategory: SymbolCategories) => {
-    setCategory(newCategory);
+  const onSelectedCategoryChange = (newSelectedCategory: SymbolCategories) => {
+    setSelectedCategory(newSelectedCategory);
   };
 
   return (
@@ -26,7 +26,7 @@ export const App = () => {
       <Header searchQuery={searchQuery} onSearchQueryChange={onSearchQueryChange} />
 
       <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start">
-        <Sidebar category={category} onCategoryChange={onCategoryChange} />
+        <Sidebar selectedCategory={selectedCategory} onSelectedCategoryChange={onSelectedCategoryChange} />
 
         <SymbolGrid symbols={symbols} />
       </main>

@@ -1,6 +1,7 @@
 import { SymbolCategories } from "../../types/symbolCategories";
-import type { CategoriesProps } from "./types";
 import { Category } from "../Category/Category";
+import { isActiveCategory } from "./utilities";
+import type { CategoriesProps } from "./types";
 
 const categories = [
   { name: "Popular", category: SymbolCategories.Popular },
@@ -11,11 +12,7 @@ const categories = [
   { name: "Math", category: SymbolCategories.Math },
 ];
 
-export const Categories = ({ category, onCategoryChange }: CategoriesProps) => {
-  const isActiveCategory = (selectedCategory: SymbolCategories) => {
-    return selectedCategory === category;
-  };
-
+export const Categories = ({ selectedCategory, onSelectedCategoryChange }: CategoriesProps) => {
   return (
     <ul className="md:w-36 lg:w-52">
       {categories.map(({ name, category }) => (
@@ -23,8 +20,8 @@ export const Categories = ({ category, onCategoryChange }: CategoriesProps) => {
           key={category}
           name={name}
           category={category}
-          isActive={isActiveCategory(category)}
-          onCategoryChange={onCategoryChange}
+          isActive={isActiveCategory(selectedCategory, category)}
+          onCategoryChange={onSelectedCategoryChange}
         />
       ))}
     </ul>
