@@ -22,7 +22,7 @@ export const App = () => {
   };
 
   return (
-    <section className="bg-gray-50 min-h-screen">
+    <section className="bg-gray-50 min-h-screen md:pl-6">
       <Header searchQuery={searchQuery} onSearchQueryChange={onSearchQueryChange} />
 
       <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start">

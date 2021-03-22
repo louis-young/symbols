@@ -12,7 +12,7 @@ export const Search = ({ searchQuery, onSearchQueryChange }: SearchProps) => {
       <input
         type="text"
         name="search"
-        placeholder="Search"
+        placeholder="Search Symbols"
         required
         autoFocus
         value={searchQuery}
