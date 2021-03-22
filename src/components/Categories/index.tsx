@@ -15,7 +15,7 @@ const categories = [
 
 export const Categories = ({ selectedCategory, onSelectedCategoryChange }: CategoriesProps) => {
   return (
-    <ul className="flex flex-col gap-1 md:w-36 lg:w-52">
+    <ul className="flex flex-col gap-1 md:w-48 lg:w-52">
       {categories.map(({ name, category, icon }) => (
         <Category
           key={category}
