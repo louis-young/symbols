@@ -5,5 +5,5 @@ export interface HeaderProps {
   onSearchQueryChange: (newSearchQuery: string) => void;
   onSelectedCategoryChange: (newSelectedCategory: SymbolCategories) => void;
   darkMode: boolean;
-  onDarkModeChange: () => void;
+  toggleDarkMode: () => void;
 }

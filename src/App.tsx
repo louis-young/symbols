@@ -13,7 +13,7 @@ export const App = () => {
 
   const [selectedCategory, setSelectedCategory] = useState<SymbolCategories>(SymbolCategories.Popular);
 
-  const { darkMode, onDarkModeChange } = useDarkMode();
+  const { darkMode, toggleDarkMode } = useDarkMode();
 
   const symbols = useSymbols(searchQuery, selectedCategory);
 
@@ -35,7 +35,7 @@ export const App = () => {
           onSearchQueryChange={onSearchQueryChange}
           onSelectedCategoryChange={onSelectedCategoryChange}
           darkMode={darkMode}
-          onDarkModeChange={onDarkModeChange}
+          toggleDarkMode={toggleDarkMode}
         />
 
         <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start mb-auto">
