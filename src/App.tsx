@@ -22,14 +22,14 @@ export const App = () => {
   };
 
   return (
-    <section className="bg-gray-50 min-h-screen md:pl-6">
+    <section className="flex flex-col bg-gray-50 min-h-screen md:pl-6">
       <Header
         searchQuery={searchQuery}
         onSearchQueryChange={onSearchQueryChange}
         onSelectedCategoryChange={onSelectedCategoryChange}
       />
 
-      <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start">
+      <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start mb-auto">
         <Sidebar selectedCategory={selectedCategory} onSelectedCategoryChange={onSelectedCategoryChange} />
 
         <Symbols symbols={symbols} />
