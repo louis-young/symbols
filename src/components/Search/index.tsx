@@ -22,12 +22,12 @@ export const Search = ({ searchQuery, onSearchQueryChange }: SearchProps) => {
         autoFocus
         value={searchQuery}
         onChange={handleChange}
-        className="p-3 w-full shadow-sm rounded-sm placeholder-gray-500"
+        className="p-3 w-full shadow-sm rounded-sm placeholder-gray-500 dark:bg-gray-700 dark:placeholder-gray-300 dark:text-white"
       />
 
       {searchQuery && (
         <button
-          className="absolute top-1/2 right-2 transform -translate-y-1/2 text-gray-600 text-sm font-bold w-8 h-8 rounded-full bg-blue-50 transition hover:bg-blue-100"
+          className="absolute top-1/2 right-2 transform -translate-y-1/2 text-gray-600 text-sm font-bold w-8 h-8 rounded-full bg-blue-50 transition hover:bg-blue-100 dark:bg-gray-500 dark:hover:bg-gray-400"
           onClick={handleClearSearchQueryClick}
         >
           ❌

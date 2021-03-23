@@ -4,12 +4,16 @@ import { Sidebar } from "./components/Sidebar";
 import { Symbols } from "./components/Symbols";
 import { Footer } from "./components/Footer/Footer";
 import { useSymbols } from "./hooks/useSymbols";
+import { useDarkMode } from "./hooks/useDarkMode";
 import { SymbolCategories } from "./types/symbolCategories";
+import classNames from "classnames";
 
 export const App = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const [selectedCategory, setSelectedCategory] = useState<SymbolCategories>(SymbolCategories.Popular);
+
+  const { darkMode, onDarkModeChange } = useDarkMode();
 
   const symbols = useSymbols(searchQuery, selectedCategory);
 
@@ -21,21 +25,27 @@ export const App = () => {
     setSelectedCategory(newSelectedCategory);
   };
 
+  const applicationClasses = classNames({ dark: darkMode });
+
   return (
-    <section className="flex flex-col bg-gray-50 min-h-screen md:pl-6">
-      <Header
-        searchQuery={searchQuery}
-        onSearchQueryChange={onSearchQueryChange}
-        onSelectedCategoryChange={onSelectedCategoryChange}
-      />
+    <div className={applicationClasses}>
+      <section className="flex flex-col bg-gray-50 dark:bg-gray-800 min-h-screen md:pl-6 transition-all">
+        <Header
+          searchQuery={searchQuery}
+          onSearchQueryChange={onSearchQueryChange}
+          onSelectedCategoryChange={onSelectedCategoryChange}
+          darkMode={darkMode}
+          onDarkModeChange={onDarkModeChange}
+        />
 
-      <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start mb-auto">
-        <Sidebar selectedCategory={selectedCategory} onSelectedCategoryChange={onSelectedCategoryChange} />
+        <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start mb-auto">
+          <Sidebar selectedCategory={selectedCategory} onSelectedCategoryChange={onSelectedCategoryChange} />
 
-        <Symbols symbols={symbols} />
-      </main>
+          <Symbols symbols={symbols} />
+        </main>
 
-      <Footer />
-    </section>
+        <Footer />
+      </section>
+    </div>
   );
 };

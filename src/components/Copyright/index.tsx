@@ -5,7 +5,7 @@ export const Copyright = () => {
     <article>
       <hr className="ml-8 mt-8" />
 
-      <p className="text-gray-600 p-8 text-sm">&copy; {year} Symbols.</p>
+      <p className="text-gray-600 dark:text-white p-8 text-sm">&copy; {year} Symbols.</p>
     </article>
   );
 };
