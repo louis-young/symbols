@@ -1,12 +1,12 @@
 # Symbols
 
-React application to access, browse and search through thousands of HTML symbols and copy them to your clipboard in one simple click.
+React application to browser, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click.
 
 ![Symbols](documentation/symbols.jpg)
 
 ## Description
 
-This is an application which allows you to browse, search and filter through HTML symbols and copy them to your clipboard easily and quickly.
+This is an application which allows you to browse, filter and search through HTML symbols and copy them to your clipboard quickly and easily.
 
 ## Motivation
 
