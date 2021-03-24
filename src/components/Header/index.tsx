@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { DarkModeToggle } from "../DarkModeToggle";
 import { Logo } from "../Logo";
 import { Search } from "../Search";
@@ -10,6 +11,9 @@ export const Header = ({
   darkMode,
   toggleDarkMode,
 }: HeaderProps) => {
+  if (true) {
+    const [x] = useState();
+  }
   return (
     <header className="flex gap-4 md:gap-12 flex-col md:flex-row items-start md:items-center justify-start p-6 md:p-8 md:pl-0 ">
       <Logo
