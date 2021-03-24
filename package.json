@@ -26,6 +26,8 @@
     "build": "craco build",
     "test": "craco test",
     "test:e2e": "cypress open",
+    "format": "prettier --write ./**/*.{ts,tsx,js,html,json,css}",
+    "lint": "yarn lint:ts && yarn lint:css",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -51,6 +53,7 @@
     "autoprefixer": "^9.8.6",
     "cypress": "^6.8.0",
     "postcss": "^7.0.35",
+    "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
   }
 }

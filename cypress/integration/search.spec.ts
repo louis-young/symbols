@@ -8,7 +8,9 @@ describe("Search Symbols", () => {
   it("Allows user input.", () => {
     cy.visit("/");
 
-    cy.findByPlaceholderText("Search Symbols").type("__TEXT__").should("have.value", "__TEXT__");
+    cy.findByPlaceholderText("Search Symbols")
+      .type("__TEXT__")
+      .should("have.value", "__TEXT__");
   });
 
   it("Clears the input when the clear button is clicked.", () => {
@@ -44,6 +46,8 @@ describe("Search Symbols", () => {
 
     cy.findByPlaceholderText("Search Symbols").type("__TEXT__");
 
-    cy.findByText("No symbols matched your search query. Please try a different word.").should("exist");
+    cy.findByText(
+      "No symbols matched your search query. Please try a different word."
+    ).should("exist");
   });
 });

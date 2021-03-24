@@ -9,7 +9,9 @@ describe("Copy", () => {
     cy.findByText("Copyright").click();
 
     cy.findByText("Copyright").within(() =>
-      cy.findByText("Copied").should("have.class", visibleCopyNotificationClasses)
+      cy
+        .findByText("Copied")
+        .should("have.class", visibleCopyNotificationClasses)
     );
 
     cy.then(() => {

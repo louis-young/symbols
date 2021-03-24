@@ -5,20 +5,30 @@ import type { SymbolCategories } from "../../types/symbolCategories";
 const symbols: Symbol[] = database;
 
 export const getSymbolsByCategory = (selectedCategory: SymbolCategories) => {
-  const symbolsByCategory = symbols.filter(({ categories }) => categories.includes(selectedCategory));
+  const symbolsByCategory = symbols.filter(({ categories }) =>
+    categories.includes(selectedCategory)
+  );
 
   return symbolsByCategory;
 };
 
 export const getSymbolsBySearchQuery = (searchQuery: string) => {
   const symbolsBySearchQuery = symbols.filter(({ name, symbol, tags }) => {
-    const searchQueryMatchesName = name.toLowerCase().includes(searchQuery.toLowerCase());
+    const searchQueryMatchesName = name
+      .toLowerCase()
+      .includes(searchQuery.toLowerCase());
 
     const searchQueryMatchesSymbol = symbol.includes(searchQuery);
 
-    const searchQueryMatchesTag = tags && tags.some((tag) => tag.toLowerCase().includes(searchQuery.toLowerCase()));
+    const searchQueryMatchesTag =
+      tags &&
+      tags.some((tag) => tag.toLowerCase().includes(searchQuery.toLowerCase()));
 
-    return searchQueryMatchesName || searchQueryMatchesSymbol || searchQueryMatchesTag;
+    return (
+      searchQueryMatchesName ||
+      searchQueryMatchesSymbol ||
+      searchQueryMatchesTag
+    );
   });
 
   return symbolsBySearchQuery;

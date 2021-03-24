@@ -4,7 +4,10 @@ import type { Symbol } from "../../types/symbol";
 import type { SymbolCategories } from "../../types/symbolCategories";
 import initialSymbols from "../../data/database.json";
 
-export const useSymbols = (searchQuery: string, selectedCategory: SymbolCategories) => {
+export const useSymbols = (
+  searchQuery: string,
+  selectedCategory: SymbolCategories
+) => {
   const [symbols, setSymbols] = useState<Symbol[]>(initialSymbols);
 
   useEffect(() => {
@@ -16,7 +19,8 @@ export const useSymbols = (searchQuery: string, selectedCategory: SymbolCategori
       return;
     }
 
-    const symbolsBySearchQuery = getSymbolsBySearchQuery(searchQuery) ?? initialSymbols;
+    const symbolsBySearchQuery =
+      getSymbolsBySearchQuery(searchQuery) ?? initialSymbols;
 
     setSymbols(symbolsBySearchQuery);
   }, [searchQuery, selectedCategory]);

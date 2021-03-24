@@ -33,7 +33,9 @@ export const Symbol = ({ name, symbol }: SymbolProps) => {
         onClick={handleCopyClick}
         className="p-6 h-full w-full flex flex-col items-center relative z-10 transition text-black dark:text-white hover:text-blue-700 dark:hover:text-gray-300"
       >
-        <p className="block text-5xl mb-4 text-black dark:text-white">{symbol}</p>
+        <p className="block text-5xl mb-4 text-black dark:text-white">
+          {symbol}
+        </p>
 
         <p className="block text-sm mt-auto text-current">{name}</p>
       </button>

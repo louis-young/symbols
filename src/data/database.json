@@ -23,7 +23,12 @@
     "categories": ["punctuation"],
     "tags": ["quote", "quotation"]
   },
-  { "symbol": "–", "name": "Endash ", "categories": ["punctuation"], "tags": ["dash"] },
+  {
+    "symbol": "–",
+    "name": "Endash ",
+    "categories": ["punctuation"],
+    "tags": ["dash"]
+  },
   {
     "symbol": "❛",
     "name": "Heavy Opening Single Quote",
@@ -36,7 +41,12 @@
     "categories": ["punctuation"],
     "tags": ["quote", "quotation"]
   },
-  { "symbol": "❝", "name": "Heavy Quotation", "categories": ["punctuation"], "tags": ["quote", "quotation"] },
+  {
+    "symbol": "❝",
+    "name": "Heavy Quotation",
+    "categories": ["punctuation"],
+    "tags": ["quote", "quotation"]
+  },
   {
     "symbol": "❞",
     "name": "Heavy Closed Quotation",
@@ -46,30 +56,69 @@
   { "symbol": "ℹ", "name": "Information", "categories": ["punctuation"] },
   { "symbol": "¶", "name": "Paragraph", "categories": ["punctuation"] },
   { "symbol": "§", "name": "Section", "categories": ["punctuation"] },
-  { "symbol": "※", "name": "Reference Mark", "categories": ["punctuation"], "tags": ["star"] },
+  {
+    "symbol": "※",
+    "name": "Reference Mark",
+    "categories": ["punctuation"],
+    "tags": ["star"]
+  },
   { "symbol": "¨", "name": "Umlaut", "categories": ["punctuation"] },
-  { "symbol": "¦", "name": "Broken Vertical Bar", "categories": ["punctuation"] },
+  {
+    "symbol": "¦",
+    "name": "Broken Vertical Bar",
+    "categories": ["punctuation"]
+  },
   { "symbol": "†", "name": "Dagger", "categories": ["punctuation"] },
   { "symbol": "‡", "name": "Double Dagger", "categories": ["punctuation"] },
   { "symbol": "´", "name": "Account Accent", "categories": ["punctuation"] },
   { "symbol": "µ", "name": "Micro", "categories": ["punctuation"] },
   { "symbol": "·", "name": "Middle Dot", "categories": ["punctuation"] },
   { "symbol": "¸", "name": "Spacing Cedilla", "categories": ["punctuation"] },
-  { "symbol": "º", "name": "Masculine Ordinal Indicator", "categories": ["punctuation"] },
-  { "symbol": "»", "name": "Double Right-Pointing Angle Quatation Mark", "categories": ["punctuation"] },
-  { "symbol": "¿", "name": "Inverted Question Mark", "categories": ["punctuation"] },
+  {
+    "symbol": "º",
+    "name": "Masculine Ordinal Indicator",
+    "categories": ["punctuation"]
+  },
+  {
+    "symbol": "»",
+    "name": "Double Right-Pointing Angle Quatation Mark",
+    "categories": ["punctuation"]
+  },
+  {
+    "symbol": "¿",
+    "name": "Inverted Question Mark",
+    "categories": ["punctuation"]
+  },
   { "symbol": "–", "name": "Endash", "categories": ["punctuation"] },
   { "symbol": "—", "name": "Emdash", "categories": ["punctuation"] },
   { "symbol": "―", "name": "Horizontal Bar", "categories": ["punctuation"] },
-  { "symbol": "‖", "name": "Double Vertical Line", "categories": ["punctuation"], "tags": ["pipe", "bar"] },
-  { "symbol": "‗", "name": "Double Low Line", "categories": ["punctuation"], "tags": ["pipe", "bar"] },
+  {
+    "symbol": "‖",
+    "name": "Double Vertical Line",
+    "categories": ["punctuation"],
+    "tags": ["pipe", "bar"]
+  },
+  {
+    "symbol": "‗",
+    "name": "Double Low Line",
+    "categories": ["punctuation"],
+    "tags": ["pipe", "bar"]
+  },
   {
     "symbol": "‟",
     "name": "Double High-Reversed-9 Quotation Mark",
     "categories": ["punctuation"]
   },
-  { "symbol": "„", "name": "Double Low-9 Quotation Mark", "categories": ["punctuation"] },
-  { "symbol": "‚", "name": "Single Low-9 Quotation Mark", "categories": ["punctuation"] },
+  {
+    "symbol": "„",
+    "name": "Double Low-9 Quotation Mark",
+    "categories": ["punctuation"]
+  },
+  {
+    "symbol": "‚",
+    "name": "Single Low-9 Quotation Mark",
+    "categories": ["punctuation"]
+  },
   {
     "symbol": "‛",
     "name": "Single High-Reversed-9 Quotation Mark",
@@ -79,16 +128,41 @@
   { "symbol": "‣", "name": "Triangular Bullet", "categories": ["punctuation"] },
   { "symbol": "․", "name": "One Dot Leader", "categories": ["punctuation"] },
   { "symbol": "‥", "name": "Two Dot Leader", "categories": ["punctuation"] },
-  { "symbol": "…", "name": "Horizontal Ellipsis", "categories": ["punctuation"] },
-  { "symbol": "‼", "name": "Double Exlamation Mark", "categories": ["punctuation"] },
-  { "symbol": "⁇", "name": "Double Question Mark", "categories": ["punctuation"] },
+  {
+    "symbol": "…",
+    "name": "Horizontal Ellipsis",
+    "categories": ["punctuation"]
+  },
+  {
+    "symbol": "‼",
+    "name": "Double Exlamation Mark",
+    "categories": ["punctuation"]
+  },
+  {
+    "symbol": "⁇",
+    "name": "Double Question Mark",
+    "categories": ["punctuation"]
+  },
   { "symbol": "‿", "name": "Undertie", "categories": ["punctuation"] },
   { "symbol": "⁀", "name": "Character Tie", "categories": ["punctuation"] },
-  { "symbol": "⁁", "name": "Caret Insertion Point", "categories": ["punctuation"] },
+  {
+    "symbol": "⁁",
+    "name": "Caret Insertion Point",
+    "categories": ["punctuation"]
+  },
   { "symbol": "⁂", "name": "Asterism", "categories": ["punctuation"] },
-  { "symbol": "⁋", "name": "Reversed Pilcrow Sign", "categories": ["punctuation"], "tags": ["paragraph"] },
+  {
+    "symbol": "⁋",
+    "name": "Reversed Pilcrow Sign",
+    "categories": ["punctuation"],
+    "tags": ["paragraph"]
+  },
   { "symbol": "⁌", "name": "Black Left Bullet", "categories": ["punctuation"] },
-  { "symbol": "⁍", "name": "Black Right Bullet", "categories": ["punctuation"] },
+  {
+    "symbol": "⁍",
+    "name": "Black Right Bullet",
+    "categories": ["punctuation"]
+  },
   { "symbol": "⁎", "name": "Low Asterisk", "categories": ["punctuation"] },
   { "symbol": "⁐", "name": "Close Up", "categories": ["punctuation"] },
   { "symbol": "⁚", "name": "Two Dot", "categories": ["punctuation"] },
@@ -96,98 +170,391 @@
   { "symbol": "⁘", "name": "Four Dot", "categories": ["punctuation"] },
   { "symbol": "⁙", "name": "Five Dot", "categories": ["punctuation"] },
   { "symbol": "⁜", "name": "Dotted Cross", "categories": ["punctuation"] },
-  { "symbol": "⁝", "name": "Tricolon", "categories": ["punctuation"], "tags": ["menu"] },
-  { "symbol": "⁞", "name": "Vertical Four Dots", "categories": ["punctuation"], "tags": ["menu"] },
+  {
+    "symbol": "⁝",
+    "name": "Tricolon",
+    "categories": ["punctuation"],
+    "tags": ["menu"]
+  },
+  {
+    "symbol": "⁞",
+    "name": "Vertical Four Dots",
+    "categories": ["punctuation"],
+    "tags": ["menu"]
+  },
   { "symbol": "™", "name": "Trade mark", "categories": ["symbols", "popular"] },
-  { "symbol": "®", "name": "Registered Trade mark", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "®",
+    "name": "Registered Trade mark",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "©", "name": "Copyright", "categories": ["symbols", "popular"] },
-  { "symbol": "ツ", "name": "Smile", "categories": ["symbols"], "tags": ["face"] },
-  { "symbol": "⌘", "name": "Place of Interest", "categories": ["symbols", "popular"], "tags": ["command", "mac"] },
-  { "symbol": "", "name": "Apple", "categories": ["symbols"], "tags": ["mac"] },
-  { "symbol": "⌥", "name": "Options", "categories": ["symbols", "popular"], "tags": ["mac", "keyboard"] },
-  { "symbol": "⌫", "name": "Erase To The Left", "categories": ["symbols"], "tags": ["mac", "keyboard"] },
-  { "symbol": "⌦", "name": "Erase To The Right", "categories": ["symbols"], "tags": ["mac", "keyboard"] },
-  { "symbol": "℃", "name": "Degree Celsius", "categories": ["symbols", "popular"] },
-  { "symbol": "℉", "name": "Degree Fahrenheit", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "ツ",
+    "name": "Smile",
+    "categories": ["symbols"],
+    "tags": ["face"]
+  },
+  {
+    "symbol": "⌘",
+    "name": "Place of Interest",
+    "categories": ["symbols", "popular"],
+    "tags": ["command", "mac"]
+  },
+  {
+    "symbol": "",
+    "name": "Apple",
+    "categories": ["symbols"],
+    "tags": ["mac"]
+  },
+  {
+    "symbol": "⌥",
+    "name": "Options",
+    "categories": ["symbols", "popular"],
+    "tags": ["mac", "keyboard"]
+  },
+  {
+    "symbol": "⌫",
+    "name": "Erase To The Left",
+    "categories": ["symbols"],
+    "tags": ["mac", "keyboard"]
+  },
+  {
+    "symbol": "⌦",
+    "name": "Erase To The Right",
+    "categories": ["symbols"],
+    "tags": ["mac", "keyboard"]
+  },
+  {
+    "symbol": "℃",
+    "name": "Degree Celsius",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "℉",
+    "name": "Degree Fahrenheit",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "℞", "name": "Prescription Take", "categories": ["symbols"] },
   { "symbol": "␛", "name": "Escape", "categories": ["symbols"] },
   { "symbol": "☯", "name": "Yin Yang", "categories": ["symbols", "popular"] },
   { "symbol": "☰", "name": "Bars", "categories": ["symbols", "popular"] },
-  { "symbol": "℡", "name": "Telephone Sign", "categories": ["symbols", "popular"] },
-  { "symbol": "☹", "name": "White Frowning Face", "categories": ["symbols", "popular"] },
-  { "symbol": "☺", "name": "White Smiling Face", "categories": ["symbols", "popular"] },
-  { "symbol": "☻", "name": "Black Smiling Face", "categories": ["symbols", "popular"] },
-  { "symbol": "❤", "name": "Heavy Black Heart", "categories": ["symbols", "popular"] },
-  { "symbol": "ℇ", "name": "Euler Constant", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "℡",
+    "name": "Telephone Sign",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "☹",
+    "name": "White Frowning Face",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "☺",
+    "name": "White Smiling Face",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "☻",
+    "name": "Black Smiling Face",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "❤",
+    "name": "Heavy Black Heart",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "ℇ",
+    "name": "Euler Constant",
+    "categories": ["symbols", "popular"]
+  },
   {
     "symbol": "❯",
     "name": "Heavy Left Quotation Ornament",
     "categories": ["symbols"],
     "tags": ["angle", "bracket"]
   },
-  { "symbol": "Ω", "name": "Ohm Sign", "categories": ["symbols", "popular"], "tags": ["greek"] },
-  { "symbol": "℧", "name": "Inverted Ohm Sign", "categories": ["symbols", "popular"], "tags": ["greek"] },
-  { "symbol": "☁", "name": "Cloud", "categories": ["symbols", "popular"], "tags": ["weather"] },
-  { "symbol": "☼", "name": "White Sun with Rays", "categories": ["symbols", "popular"], "tags": ["weather"] },
-  { "symbol": "☀", "name": "Black Sun with Rays", "categories": ["symbols", "popular"], "tags": ["weather"] },
-  { "symbol": "☂", "name": "Umbrella", "categories": ["symbols", "popular"], "tags": ["weather"] },
-  { "symbol": "☾", "name": "Moon", "categories": ["symbols", "popular"], "tags": ["weather"] },
+  {
+    "symbol": "Ω",
+    "name": "Ohm Sign",
+    "categories": ["symbols", "popular"],
+    "tags": ["greek"]
+  },
+  {
+    "symbol": "℧",
+    "name": "Inverted Ohm Sign",
+    "categories": ["symbols", "popular"],
+    "tags": ["greek"]
+  },
+  {
+    "symbol": "☁",
+    "name": "Cloud",
+    "categories": ["symbols", "popular"],
+    "tags": ["weather"]
+  },
+  {
+    "symbol": "☼",
+    "name": "White Sun with Rays",
+    "categories": ["symbols", "popular"],
+    "tags": ["weather"]
+  },
+  {
+    "symbol": "☀",
+    "name": "Black Sun with Rays",
+    "categories": ["symbols", "popular"],
+    "tags": ["weather"]
+  },
+  {
+    "symbol": "☂",
+    "name": "Umbrella",
+    "categories": ["symbols", "popular"],
+    "tags": ["weather"]
+  },
+  {
+    "symbol": "☾",
+    "name": "Moon",
+    "categories": ["symbols", "popular"],
+    "tags": ["weather"]
+  },
   { "symbol": "☃", "name": "Snowman", "categories": ["symbols", "popular"] },
   { "symbol": "★", "name": "Black Star", "categories": ["symbols", "popular"] },
-  { "symbol": "☆", "name": "White Star", "categories": ["symbols", "popular"], "tags": ["shapes"] },
-  { "symbol": "☚", "name": "Black Left Pointing Index", "categories": ["symbols", "popular"] },
-  { "symbol": "☛", "name": "Black Right Pointing Index", "categories": ["symbols", "popular"] },
-  { "symbol": "☭", "name": "Hammer and Sickle", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "☆",
+    "name": "White Star",
+    "categories": ["symbols", "popular"],
+    "tags": ["shapes"]
+  },
+  {
+    "symbol": "☚",
+    "name": "Black Left Pointing Index",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "☛",
+    "name": "Black Right Pointing Index",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "☭",
+    "name": "Hammer and Sickle",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "♀", "name": "Female", "categories": ["symbols", "popular"] },
   { "symbol": "♂", "name": "Male", "categories": ["symbols", "popular"] },
-  { "symbol": "⚢", "name": "Double Female", "categories": ["symbols", "popular"] },
-  { "symbol": "⚣", "name": "Double Male", "categories": ["symbols", "popular"] },
-  { "symbol": "♨", "name": "Hot Springs", "categories": ["symbols", "popular"], "tags": ["java"] },
+  {
+    "symbol": "⚢",
+    "name": "Double Female",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "⚣",
+    "name": "Double Male",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "♨",
+    "name": "Hot Springs",
+    "categories": ["symbols", "popular"],
+    "tags": ["java"]
+  },
   { "symbol": "♺", "name": "Recycle", "categories": ["symbols", "popular"] },
-  { "symbol": "♻", "name": "Black Recycle", "categories": ["symbols", "popular"] },
-  { "symbol": "♾", "name": "Permanent Paper Sign", "categories": ["symbols", "popular"], "tags": ["infinity"] },
+  {
+    "symbol": "♻",
+    "name": "Black Recycle",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "♾",
+    "name": "Permanent Paper Sign",
+    "categories": ["symbols", "popular"],
+    "tags": ["infinity"]
+  },
   { "symbol": "⚑", "name": "Flag", "categories": ["symbols", "popular"] },
   { "symbol": "⚘", "name": "Flower", "categories": ["symbols", "popular"] },
   { "symbol": "⚠", "name": "Warning", "categories": ["symbols", "popular"] },
-  { "symbol": "✉", "name": "Envelope", "categories": ["symbols", "popular"], "tags": ["mail", "email"] },
-  { "symbol": "✎", "name": "Lower Right Pencil", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "✉",
+    "name": "Envelope",
+    "categories": ["symbols", "popular"],
+    "tags": ["mail", "email"]
+  },
+  {
+    "symbol": "✎",
+    "name": "Lower Right Pencil",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "✏", "name": "Pencil", "categories": ["symbols", "popular"] },
-  { "symbol": "✐", "name": "Upper Right Pencil", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "✐",
+    "name": "Upper Right Pencil",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "✓", "name": "Check Mark", "categories": ["symbols", "popular"] },
-  { "symbol": "✔", "name": "Heavy Check Mark", "categories": ["symbols", "popular"] },
-  { "symbol": "✗", "name": "Ballot", "categories": ["symbols", "popular"], "tags": ["x", "cross"] },
-  { "symbol": "✘", "name": "Heavy Ballot", "categories": ["symbols", "popular"], "tags": ["x", "cross"] },
-  { "symbol": "✝", "name": "Latin Cross", "categories": ["symbols", "popular"] },
-  { "symbol": "✞", "name": "Shadowed Cross", "categories": ["symbols", "popular"] },
-  { "symbol": "✡", "name": "Star of David", "categories": ["symbols", "popular"] },
-  { "symbol": "✢", "name": "Four Teardrop Cross", "categories": ["symbols", "popular"] },
-  { "symbol": "✼", "name": "Teardrop Open Asterisk", "categories": ["symbols", "popular"] },
-  { "symbol": "✦", "name": "Four Pointed Star", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "✔",
+    "name": "Heavy Check Mark",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✗",
+    "name": "Ballot",
+    "categories": ["symbols", "popular"],
+    "tags": ["x", "cross"]
+  },
+  {
+    "symbol": "✘",
+    "name": "Heavy Ballot",
+    "categories": ["symbols", "popular"],
+    "tags": ["x", "cross"]
+  },
+  {
+    "symbol": "✝",
+    "name": "Latin Cross",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✞",
+    "name": "Shadowed Cross",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✡",
+    "name": "Star of David",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✢",
+    "name": "Four Teardrop Cross",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✼",
+    "name": "Teardrop Open Asterisk",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✦",
+    "name": "Four Pointed Star",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "✭", "name": "Star", "categories": ["symbols", "popular"] },
-  { "symbol": "✯", "name": "Pinwheel Star", "categories": ["symbols", "popular"] },
-  { "symbol": "✰", "name": "Shadowed White Star", "categories": ["symbols", "popular"] },
-  { "symbol": "✱", "name": "Heavy Asterisk", "categories": ["symbols", "popular"] },
-  { "symbol": "✳", "name": "Eight Spoked Asterisk", "categories": ["symbols", "popular"] },
-  { "symbol": "✴", "name": "Eight Pointed Star", "categories": ["symbols", "popular"] },
-  { "symbol": "✶", "name": "Six Pointed Star", "categories": ["symbols", "popular"] },
-  { "symbol": "✸", "name": "Heavy Eight Pointed Star", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "✯",
+    "name": "Pinwheel Star",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✰",
+    "name": "Shadowed White Star",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✱",
+    "name": "Heavy Asterisk",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✳",
+    "name": "Eight Spoked Asterisk",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✴",
+    "name": "Eight Pointed Star",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✶",
+    "name": "Six Pointed Star",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "✸",
+    "name": "Heavy Eight Pointed Star",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "⚬", "name": "Circle", "categories": ["symbols", "popular"] },
-  { "symbol": "❍", "name": "Shadowed White Circle", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "❍",
+    "name": "Shadowed White Circle",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "⚭", "name": "Marriage", "categories": ["symbols", "popular"] },
-  { "symbol": "❖", "name": "Black Diamond", "categories": ["symbols", "popular"] },
+  {
+    "symbol": "❖",
+    "name": "Black Diamond",
+    "categories": ["symbols", "popular"]
+  },
   { "symbol": "✈", "name": "Airplane", "categories": ["symbols", "popular"] },
-  { "symbol": "♪", "name": "Eighth Note", "categories": ["symbols", "popular"] },
-  { "symbol": "♫", "name": "Beamed Eighth Note", "categories": ["symbols", "popular"] },
-  { "symbol": "◐", "name": "Circle Left Half Black", "categories": ["symbols", "popular"] },
-  { "symbol": "◑", "name": "Circle Right Half Black", "categories": ["symbols", "popular"] },
-  { "symbol": "⎔", "name": "Hexigon", "categories": ["symbols", "popular"], "tags": ["Shape"] },
-  { "symbol": "⬣", "name": "Hexigon Black", "categories": ["symbols", "popular"], "tags": ["Shape"] },
-  { "symbol": "⬢", "name": "Hexigon Black Side", "categories": ["symbols", "popular"], "tags": ["Shape"] },
-  { "symbol": "⬨", "name": "Diamond", "categories": ["symbols", "popular"], "tags": ["Shape"] },
-  { "symbol": "←", "categories": ["arrows"], "name": "Left Arrow", "tags": ["keyboard", "arrow"] },
-  { "symbol": "↑", "categories": ["arrows"], "name": "Up Arrow", "tags": ["keyboard", "arrow"] },
-  { "symbol": "→", "categories": ["arrows"], "name": "Right Arrow", "tags": ["keyboard", "arrow"] },
-  { "symbol": "↓", "categories": ["arrows"], "name": "Down Arrow", "tags": ["keyboard", "arrow"] },
+  {
+    "symbol": "♪",
+    "name": "Eighth Note",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "♫",
+    "name": "Beamed Eighth Note",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "◐",
+    "name": "Circle Left Half Black",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "◑",
+    "name": "Circle Right Half Black",
+    "categories": ["symbols", "popular"]
+  },
+  {
+    "symbol": "⎔",
+    "name": "Hexigon",
+    "categories": ["symbols", "popular"],
+    "tags": ["Shape"]
+  },
+  {
+    "symbol": "⬣",
+    "name": "Hexigon Black",
+    "categories": ["symbols", "popular"],
+    "tags": ["Shape"]
+  },
+  {
+    "symbol": "⬢",
+    "name": "Hexigon Black Side",
+    "categories": ["symbols", "popular"],
+    "tags": ["Shape"]
+  },
+  {
+    "symbol": "⬨",
+    "name": "Diamond",
+    "categories": ["symbols", "popular"],
+    "tags": ["Shape"]
+  },
+  {
+    "symbol": "←",
+    "categories": ["arrows"],
+    "name": "Left Arrow",
+    "tags": ["keyboard", "arrow"]
+  },
+  {
+    "symbol": "↑",
+    "categories": ["arrows"],
+    "name": "Up Arrow",
+    "tags": ["keyboard", "arrow"]
+  },
+  {
+    "symbol": "→",
+    "categories": ["arrows"],
+    "name": "Right Arrow",
+    "tags": ["keyboard", "arrow"]
+  },
+  {
+    "symbol": "↓",
+    "categories": ["arrows"],
+    "name": "Down Arrow",
+    "tags": ["keyboard", "arrow"]
+  },
   { "symbol": "↖", "categories": ["arrows"], "name": "North West Arrow" },
   { "symbol": "↗", "categories": ["arrows"], "name": "North East Arrow" },
   { "symbol": "↘", "categories": ["arrows"], "name": "South East Arrow" },
@@ -203,46 +570,167 @@
   { "symbol": "❯", "categories": ["arrows"], "name": "Heavy Right Chevron" },
   { "symbol": "❮", "categories": ["arrows"], "name": "Heavy Left Chevron" },
   { "symbol": "↯", "categories": ["arrows"], "name": "Down Zigzag Arrow" },
-  { "symbol": "↺", "categories": ["arrows"], "name": "Anticlockwise Open Circle Arrow" },
-  { "symbol": "↻", "categories": ["arrows"], "name": "Clockwise Open Circle Arrow" },
-  { "symbol": "⟲", "categories": ["arrows"], "name": "Anticlockwise Gapped Circle Arrow" },
-  { "symbol": "⟳", "categories": ["arrows"], "name": "Clockwise Gapped Circle Arrow" },
-  { "symbol": "⇄", "categories": ["arrows"], "name": "Right Arrow Over Left Arrow" },
-  { "symbol": "⇆", "categories": ["arrows"], "name": "Left Arrow Over Right Arrow" },
-  { "symbol": "⇅", "categories": ["arrows"], "name": "Up Arrow Left Of Down Arrow" },
+  {
+    "symbol": "↺",
+    "categories": ["arrows"],
+    "name": "Anticlockwise Open Circle Arrow"
+  },
+  {
+    "symbol": "↻",
+    "categories": ["arrows"],
+    "name": "Clockwise Open Circle Arrow"
+  },
+  {
+    "symbol": "⟲",
+    "categories": ["arrows"],
+    "name": "Anticlockwise Gapped Circle Arrow"
+  },
+  {
+    "symbol": "⟳",
+    "categories": ["arrows"],
+    "name": "Clockwise Gapped Circle Arrow"
+  },
+  {
+    "symbol": "⇄",
+    "categories": ["arrows"],
+    "name": "Right Arrow Over Left Arrow"
+  },
+  {
+    "symbol": "⇆",
+    "categories": ["arrows"],
+    "name": "Left Arrow Over Right Arrow"
+  },
+  {
+    "symbol": "⇅",
+    "categories": ["arrows"],
+    "name": "Up Arrow Left Of Down Arrow"
+  },
   { "symbol": "⇒", "categories": ["arrows"], "name": "Right Double Arrow" },
-  { "symbol": "⇔", "categories": ["arrows"], "name": "Left Right Double Arrow" },
+  {
+    "symbol": "⇔",
+    "categories": ["arrows"],
+    "name": "Left Right Double Arrow"
+  },
   { "symbol": "⇠", "categories": ["arrows"], "name": "Left Dashed Arrow" },
   { "symbol": "⇡", "categories": ["arrows"], "name": "Up Dashed Arrow" },
   { "symbol": "⇢", "categories": ["arrows"], "name": "Right Dashed Arrow" },
   { "symbol": "⇣", "categories": ["arrows"], "name": "Down Dashed Arrow" },
   { "symbol": "⇤", "categories": ["arrows"], "name": "Left Arrow To Bar" },
   { "symbol": "⇥", "categories": ["arrows"], "name": "Right Arrow To Bar" },
-  { "symbol": "↳", "categories": ["arrows"], "name": "Down Arrow With Tip Right" },
-  { "symbol": "↵", "categories": ["arrows"], "name": "Down Arrow With Corner Left", "tags": ["keyboard", "return"] },
-  { "symbol": "⏎", "categories": ["arrows"], "name": "Outline Return Arrow", "tags": ["keyboard", "return"] },
+  {
+    "symbol": "↳",
+    "categories": ["arrows"],
+    "name": "Down Arrow With Tip Right"
+  },
+  {
+    "symbol": "↵",
+    "categories": ["arrows"],
+    "name": "Down Arrow With Corner Left",
+    "tags": ["keyboard", "return"]
+  },
+  {
+    "symbol": "⏎",
+    "categories": ["arrows"],
+    "name": "Outline Return Arrow",
+    "tags": ["keyboard", "return"]
+  },
   { "symbol": "⌃", "categories": ["arrows"], "name": "Up Arrowhead" },
-  { "symbol": "➢", "categories": ["arrows"], "name": "Three-D Top-Lighted Right Arrowhead" },
-  { "symbol": "➣", "categories": ["arrows"], "name": "Three-D Bottom-Lighted Right Arrowhead" },
+  {
+    "symbol": "➢",
+    "categories": ["arrows"],
+    "name": "Three-D Top-Lighted Right Arrowhead"
+  },
+  {
+    "symbol": "➣",
+    "categories": ["arrows"],
+    "name": "Three-D Bottom-Lighted Right Arrowhead"
+  },
   { "symbol": "➤", "categories": ["arrows"], "name": "Black Right Arrowhead" },
-  { "symbol": "▶", "categories": ["arrows"], "name": "Black Right-Pointing Triangle" },
-  { "symbol": "◀", "categories": ["arrows"], "name": "Black Left-Pointing Triangle" },
+  {
+    "symbol": "▶",
+    "categories": ["arrows"],
+    "name": "Black Right-Pointing Triangle"
+  },
+  {
+    "symbol": "◀",
+    "categories": ["arrows"],
+    "name": "Black Left-Pointing Triangle"
+  },
   { "symbol": "⇦", "categories": ["arrows"], "name": "Left White Arrow" },
-  { "symbol": "⇧", "categories": ["arrows"], "name": "Up White Arrow", "tags": ["keyboard", "shift"] },
+  {
+    "symbol": "⇧",
+    "categories": ["arrows"],
+    "name": "Up White Arrow",
+    "tags": ["keyboard", "shift"]
+  },
   { "symbol": "⇨", "categories": ["arrows"], "name": "Right White Arrow" },
   { "symbol": "⇩", "categories": ["arrows"], "name": "Down White Arrow" },
-  { "symbol": "⇪", "categories": ["arrows"], "name": "Up White Arrow From Bar" },
-  { "symbol": "⇱", "categories": ["arrows"], "name": "North West Arrow To Corner" },
-  { "symbol": "⇲", "categories": ["arrows"], "name": "South East Arrow To Corner" },
-  { "symbol": "➔", "categories": ["arrows"], "name": "Heavy Wide-Headed Right Arrow" },
-  { "symbol": "➟", "categories": ["arrows"], "name": "Dashed Triangle-Headed Right Arrow" },
-  { "symbol": "➠", "categories": ["arrows"], "name": "Heavy Dashed Triangle-Headed Right Arrow" },
-  { "symbol": "$", "name": "Dollar Sign", "categories": ["currency"], "tags": ["USD"] },
-  { "symbol": "¢", "name": "Cent Sign", "categories": ["currency"], "tags": ["USD"] },
-  { "symbol": "£", "name": "Pound Sign", "categories": ["currency"], "tags": ["Europe"] },
-  { "symbol": "€", "name": "Euro Sign", "categories": ["currency"], "tags": ["Europe"] },
-  { "symbol": "¥", "name": "Yen Sign", "categories": ["currency"], "tags": ["japanese"] },
-  { "symbol": "₹", "name": "Rupee Sign", "categories": ["currency"], "tags": ["indian"] },
+  {
+    "symbol": "⇪",
+    "categories": ["arrows"],
+    "name": "Up White Arrow From Bar"
+  },
+  {
+    "symbol": "⇱",
+    "categories": ["arrows"],
+    "name": "North West Arrow To Corner"
+  },
+  {
+    "symbol": "⇲",
+    "categories": ["arrows"],
+    "name": "South East Arrow To Corner"
+  },
+  {
+    "symbol": "➔",
+    "categories": ["arrows"],
+    "name": "Heavy Wide-Headed Right Arrow"
+  },
+  {
+    "symbol": "➟",
+    "categories": ["arrows"],
+    "name": "Dashed Triangle-Headed Right Arrow"
+  },
+  {
+    "symbol": "➠",
+    "categories": ["arrows"],
+    "name": "Heavy Dashed Triangle-Headed Right Arrow"
+  },
+  {
+    "symbol": "$",
+    "name": "Dollar Sign",
+    "categories": ["currency"],
+    "tags": ["USD"]
+  },
+  {
+    "symbol": "¢",
+    "name": "Cent Sign",
+    "categories": ["currency"],
+    "tags": ["USD"]
+  },
+  {
+    "symbol": "£",
+    "name": "Pound Sign",
+    "categories": ["currency"],
+    "tags": ["Europe"]
+  },
+  {
+    "symbol": "€",
+    "name": "Euro Sign",
+    "categories": ["currency"],
+    "tags": ["Europe"]
+  },
+  {
+    "symbol": "¥",
+    "name": "Yen Sign",
+    "categories": ["currency"],
+    "tags": ["japanese"]
+  },
+  {
+    "symbol": "₹",
+    "name": "Rupee Sign",
+    "categories": ["currency"],
+    "tags": ["indian"]
+  },
   {
     "symbol": "₿",
     "name": "Bitcoin Sign",
@@ -327,36 +815,99 @@
     "categories": ["currency", "crypto"],
     "tags": ["Cryptocurrency", "DAI", "Crypto"]
   },
-  { "symbol": "₽", "name": "Ruble Sign", "categories": ["currency"], "tags": ["Russian"] },
-  { "symbol": "元", "name": "Yuan Sign", "categories": ["currency"], "tags": ["Chinese", "China"] },
+  {
+    "symbol": "₽",
+    "name": "Ruble Sign",
+    "categories": ["currency"],
+    "tags": ["Russian"]
+  },
+  {
+    "symbol": "元",
+    "name": "Yuan Sign",
+    "categories": ["currency"],
+    "tags": ["Chinese", "China"]
+  },
   { "symbol": "¤", "name": "Currency Sign", "categories": ["currency"] },
   { "symbol": "₵", "name": "Cedi Sign", "categories": ["currency"] },
   { "symbol": "₢", "name": "Cruzeiro Sign", "categories": ["currency"] },
-  { "symbol": "₣", "name": "Franc Sign", "categories": ["currency"], "tags": ["French", "France"] },
-  { "symbol": "₱", "name": "Pesso Sign", "categories": ["currency"], "tags": ["Mexican", "Mexico"] },
+  {
+    "symbol": "₣",
+    "name": "Franc Sign",
+    "categories": ["currency"],
+    "tags": ["French", "France"]
+  },
+  {
+    "symbol": "₱",
+    "name": "Pesso Sign",
+    "categories": ["currency"],
+    "tags": ["Mexican", "Mexico"]
+  },
   { "symbol": "₤", "name": "Lira Sign", "categories": ["currency"] },
   { "symbol": "₲", "name": "Guarani Sign", "categories": ["currency"] },
   { "symbol": "₥", "name": "Mill Sign", "categories": ["currency"] },
   { "symbol": "₶", "name": "Livre Tournois Sign", "categories": ["currency"] },
   { "symbol": "₳", "name": "Austral Sign", "categories": ["currency"] },
   { "symbol": "₦", "name": "Naira Sign", "categories": ["currency"] },
-  { "symbol": "₩", "name": "Won Sign", "categories": ["currency"], "tags": ["Korean"] },
+  {
+    "symbol": "₩",
+    "name": "Won Sign",
+    "categories": ["currency"],
+    "tags": ["Korean"]
+  },
   { "symbol": "₸", "name": "Tenge Sign", "categories": ["currency"] },
   { "symbol": "₪", "name": "New Sheqel Sign", "categories": ["currency"] },
   { "symbol": "₴", "name": "Hryvnia Sign", "categories": ["currency"] },
   { "symbol": "₺", "name": "Turkish Lira Sign", "categories": ["currency"] },
-  { "symbol": "₫", "name": "Dong Sign", "categories": ["currency"], "tags": ["Vietnam", "Vietnamese"] },
-  { "symbol": "₭", "name": "Kip Sign", "categories": ["currency"], "tags": ["Loas", "Loatian"] },
+  {
+    "symbol": "₫",
+    "name": "Dong Sign",
+    "categories": ["currency"],
+    "tags": ["Vietnam", "Vietnamese"]
+  },
+  {
+    "symbol": "₭",
+    "name": "Kip Sign",
+    "categories": ["currency"],
+    "tags": ["Loas", "Loatian"]
+  },
   { "symbol": "₮", "name": "Tugrik Sign", "categories": ["currency"] },
   { "symbol": "₼", "name": "Manat Sign", "categories": ["currency"] },
   { "symbol": "₯", "name": "Drachma Sign", "categories": ["currency"] },
   { "symbol": "₰", "name": "German Penny Sign", "categories": ["currency"] },
-  { "symbol": "﷼", "name": "Rial Sign", "categories": ["currency"], "tags": ["Iran"] },
-  { "symbol": "＄", "name": "Full Width Dollar Sign", "categories": ["currency"] },
-  { "symbol": "￠", "name": "Full Width Cent Sign", "categories": ["currency"] },
-  { "symbol": "￡", "name": "Full Width Pound Sign", "categories": ["currency"], "tags": ["Europe"] },
-  { "symbol": "￥", "name": "Full Width Yen Sign", "categories": ["currency"], "tags": ["Japanese"] },
-  { "symbol": "￦", "name": "Full Width Won Sign", "categories": ["currency"], "tags": ["Korean"] },
+  {
+    "symbol": "﷼",
+    "name": "Rial Sign",
+    "categories": ["currency"],
+    "tags": ["Iran"]
+  },
+  {
+    "symbol": "＄",
+    "name": "Full Width Dollar Sign",
+    "categories": ["currency"]
+  },
+  {
+    "symbol": "￠",
+    "name": "Full Width Cent Sign",
+    "categories": ["currency"]
+  },
+  {
+    "symbol": "￡",
+    "name": "Full Width Pound Sign",
+    "categories": ["currency"],
+    "tags": ["Europe"]
+  },
+  {
+    "symbol": "￥",
+    "name": "Full Width Yen Sign",
+    "categories": ["currency"],
+    "tags": ["Japanese"]
+  },
+  {
+    "symbol": "￦",
+    "name": "Full Width Won Sign",
+    "categories": ["currency"],
+    "tags": ["Korean"]
+  },
   { "symbol": "+", "name": "Plus Sign", "categories": ["math"] },
   { "symbol": "−", "name": "Minus Sign", "categories": ["math"] },
   { "symbol": "×", "name": "Multiplication Sign", "categories": ["math"] },
@@ -368,8 +919,16 @@
   { "symbol": "±", "name": "Plus Or Minus Sign", "categories": ["math"] },
   { "symbol": "⋇", "name": "Division Times", "categories": ["math"] },
   { "symbol": "¬", "name": "Not Sign", "categories": ["math"] },
-  { "symbol": "⋜", "name": "Equal To Or Less-Than Sign", "categories": ["math"] },
-  { "symbol": "⋝", "name": "Equal To Or Greater-Than Sign", "categories": ["math"] },
+  {
+    "symbol": "⋜",
+    "name": "Equal To Or Less-Than Sign",
+    "categories": ["math"]
+  },
+  {
+    "symbol": "⋝",
+    "name": "Equal To Or Greater-Than Sign",
+    "categories": ["math"]
+  },
   { "symbol": "°", "name": "Degree Sign", "categories": ["math"] },
   { "symbol": "ƒ", "name": "Function", "categories": ["math"] },
   { "symbol": "%", "name": "Percent Sign", "categories": ["math"] },
@@ -385,11 +944,24 @@
   { "symbol": "⟨", "name": "Math Left Angle Bracket", "categories": ["math"] },
   { "symbol": "⟩", "name": "Math Right Angle Bracket", "categories": ["math"] },
   { "symbol": "⋅", "name": "Dot Operator", "categories": ["math"] },
-  { "symbol": "≎", "name": "Geometrically Equivalent To", "categories": ["math"] },
+  {
+    "symbol": "≎",
+    "name": "Geometrically Equivalent To",
+    "categories": ["math"]
+  },
   { "symbol": "∠", "name": "Angle", "categories": ["math"] },
   { "symbol": "∡", "name": "Measured Angle", "categories": ["math"] },
-  { "symbol": "⦜", "name": "Right Angle Variant with Square", "categories": ["math"] },
-  { "symbol": "∑", "name": "N-Ary Summation", "tags": ["Sigma", "Notation"], "categories": ["math"] },
+  {
+    "symbol": "⦜",
+    "name": "Right Angle Variant with Square",
+    "categories": ["math"]
+  },
+  {
+    "symbol": "∑",
+    "name": "N-Ary Summation",
+    "tags": ["Sigma", "Notation"],
+    "categories": ["math"]
+  },
   { "symbol": "≂", "name": "Minus Tilde", "categories": ["math"] },
   { "symbol": "¹", "name": "Superscript One", "categories": ["math"] },
   { "symbol": "²", "name": "Superscript Two", "categories": ["math"] },
@@ -398,8 +970,16 @@
   { "symbol": "⁺", "name": "Superscript Plus Sign", "categories": ["math"] },
   { "symbol": "⁻", "name": "Superscript Minus Sign", "categories": ["math"] },
   { "symbol": "⁼", "name": "Superscript Equals Sign", "categories": ["math"] },
-  { "symbol": "⁽", "name": "Superscript Left Parenthesis", "categories": ["math"] },
-  { "symbol": "⁾", "name": "Superscript Right Parenthesis", "categories": ["math"] },
+  {
+    "symbol": "⁽",
+    "name": "Superscript Left Parenthesis",
+    "categories": ["math"]
+  },
+  {
+    "symbol": "⁾",
+    "name": "Superscript Right Parenthesis",
+    "categories": ["math"]
+  },
   { "symbol": "ⁿ", "name": "Superscript n", "categories": ["math"] },
   { "symbol": "∗", "name": "Asterisk Operator", "categories": ["math"] },
   { "symbol": "∘", "name": "Ring Operator", "categories": ["math"] },

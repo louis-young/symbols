@@ -2,7 +2,10 @@ import classNames from "classnames";
 import { moon, sun } from "../../assets/icons";
 import type { DarkModeToggleProps } from "./types";
 
-export const DarkModeToggle = ({ darkMode, toggleDarkMode }: DarkModeToggleProps) => {
+export const DarkModeToggle = ({
+  darkMode,
+  toggleDarkMode,
+}: DarkModeToggleProps) => {
   const darkModeToggleClasses = classNames({
     "mr-4 w-10 h-10 hover:opacity-80 transition duration-200 p-2": true,
     "text-white": darkMode,
@@ -12,11 +15,21 @@ export const DarkModeToggle = ({ darkMode, toggleDarkMode }: DarkModeToggleProps
   const title = `Activate ${darkMode ? "Light" : "Dark"} Mode`;
 
   return darkMode ? (
-    <button onClick={toggleDarkMode} className={darkModeToggleClasses} title={title} data-testid="light-mode-toggle">
+    <button
+      onClick={toggleDarkMode}
+      className={darkModeToggleClasses}
+      title={title}
+      data-testid="light-mode-toggle"
+    >
       {sun}
     </button>
   ) : (
-    <button onClick={toggleDarkMode} className={darkModeToggleClasses} title={title} data-testid="dark-mode-toggle">
+    <button
+      onClick={toggleDarkMode}
+      className={darkModeToggleClasses}
+      title={title}
+      data-testid="dark-mode-toggle"
+    >
       {moon}
     </button>
   );

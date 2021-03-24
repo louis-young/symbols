@@ -11,7 +11,9 @@ import classNames from "classnames";
 export const App = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const [selectedCategory, setSelectedCategory] = useState<SymbolCategories>(SymbolCategories.Popular);
+  const [selectedCategory, setSelectedCategory] = useState<SymbolCategories>(
+    SymbolCategories.Popular
+  );
 
   const { darkMode, toggleDarkMode } = useDarkMode();
 
@@ -39,7 +41,10 @@ export const App = () => {
         />
 
         <main className="flex flex-col-reverse md:flex-row md:gap-12 items-start mb-auto">
-          <Sidebar selectedCategory={selectedCategory} onSelectedCategoryChange={onSelectedCategoryChange} />
+          <Sidebar
+            selectedCategory={selectedCategory}
+            onSelectedCategoryChange={onSelectedCategoryChange}
+          />
 
           <Symbols symbols={symbols} />
         </main>

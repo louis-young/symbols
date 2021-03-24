@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 
 const initialDarkMode =
-  (localStorage.darkMode === "true" || window.matchMedia("(prefers-color-scheme: dark)").matches) &&
+  (localStorage.darkMode === "true" ||
+    window.matchMedia("(prefers-color-scheme: dark)").matches) &&
   localStorage.darkMode !== "false";
 
 export const useDarkMode = () => {
