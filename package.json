@@ -72,7 +72,7 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
+    "*.{js,ts,tsx}": "eslint --cache --fix",
     "*.{ts,tsx,js,html,json,css}": "prettier --write"
   }
 }
