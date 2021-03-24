@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import { createYield } from "typescript";
 import type { CategoryProps } from "./types";
 
 export const Category = ({
