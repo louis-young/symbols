@@ -98,7 +98,7 @@ export const symbols = (
 );
 
 export const sun = (
-  <svg viewBox="0 0 24 24" width="24px" height="24px" fill="currentColor">
+  <svg viewBox="0 0 24 24" fill="currentColor">
     <path d="M11 0v3h2V0h-2zM4.223 2.809L2.809 4.223l2.12 2.12L6.345 4.93 4.223 2.809zm15.554 0l-2.12 2.12 1.413 1.415 2.121-2.121-1.414-1.414zM12 5a7 7 0 00-7 7 7 7 0 007 7 7 7 0 007-7 7 7 0 00-7-7zM0 11v2h3v-2H0zm21 0v2h3v-2h-3zM4.93 17.656l-2.121 2.121 1.414 1.414 2.12-2.12-1.413-1.415zm14.14 0l-1.414 1.414 2.121 2.121 1.414-1.414-2.12-2.12zM11 21v3h2v-3h-2z" />
   </svg>
 );

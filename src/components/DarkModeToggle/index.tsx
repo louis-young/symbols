@@ -4,7 +4,7 @@ import type { DarkModeToggleProps } from "./types";
 
 export const DarkModeToggle = ({ darkMode, toggleDarkMode }: DarkModeToggleProps) => {
   const darkModeToggleClasses = classNames({
-    "mr-4 w-6 h-6 hover:opacity-80 transition duration-200": true,
+    "mr-4 w-10 h-10 hover:opacity-80 transition duration-200 p-2": true,
     "text-white": darkMode,
     "text-gray-600": !darkMode,
   });
