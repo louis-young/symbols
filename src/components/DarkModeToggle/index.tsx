@@ -12,11 +12,11 @@ export const DarkModeToggle = ({ darkMode, toggleDarkMode }: DarkModeToggleProps
   const title = `Activate ${darkMode ? "Light" : "Dark"} Mode`;
 
   return darkMode ? (
-    <button onClick={toggleDarkMode} className={darkModeToggleClasses} title={title}>
+    <button onClick={toggleDarkMode} className={darkModeToggleClasses} title={title} data-testid="light-mode-toggle">
       {sun}
     </button>
   ) : (
-    <button onClick={toggleDarkMode} className={darkModeToggleClasses} title={title}>
+    <button onClick={toggleDarkMode} className={darkModeToggleClasses} title={title} data-testid="dark-mode-toggle">
       {moon}
     </button>
   );
