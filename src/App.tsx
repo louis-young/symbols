@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Header } from "./components/Header";
 import { Sidebar } from "./components/Sidebar";
 import { Symbols } from "./components/Symbols";
-import { Footer } from "./components/Footer/Footer";
+import { Footer } from "./components/Footer";
 import { useSymbols } from "./hooks/useSymbols";
 import { useDarkMode } from "./hooks/useDarkMode";
 import { SymbolCategories } from "./types/symbolCategories";
