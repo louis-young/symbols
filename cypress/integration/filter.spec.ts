@@ -1,60 +1,64 @@
-const selectedCategoryClasses =
-  "text-blue-700 dark:text-white bg-blue-50 dark:bg-gray-700";
-
 describe("Filter", () => {
-  it("Selects the popular category by default.", () => {
-    cy.visit("/");
+  const popularSymbol = "⌘";
+  const mathSymbol = "+";
 
+  beforeEach(() => {
+    cy.visit("/");
+  });
+
+  it("Selects the popular category by default.", () => {
     cy.findByRole("button", { name: "Popular" }).should(
-      "have.class",
-      selectedCategoryClasses
+      "have.attr",
+      "aria-current",
+      "true"
     );
 
-    cy.findByText("⌘").should("exist");
+    cy.findByText(popularSymbol).should("exist");
   });
 
   it("Selects another category when clicked.", () => {
-    cy.visit("/");
-
-    cy.findByText("⌘").should("exist");
+    cy.findByText(popularSymbol).should("exist");
 
     cy.findByRole("button", { name: "Math" }).click();
 
-    cy.findByText("⌘").should("not.exist");
+    cy.findByText(popularSymbol).should("not.exist");
 
     cy.findByRole("button", { name: "Math" }).should(
-      "have.class",
-      selectedCategoryClasses
+      "have.attr",
+      "aria-current",
+      "true"
     );
 
-    cy.findByText("+").should("exist");
+    cy.findByText(mathSymbol).should("exist");
 
     cy.findByRole("button", { name: "Popular" }).should(
-      "not.have.class",
-      selectedCategoryClasses
+      "not.have.attr",
+      "aria-current",
+      "true"
     );
   });
 
   it("Selects the Popular category when the logo is clicked.", () => {
-    cy.visit("/");
-
     cy.findByRole("button", { name: "Math" }).click();
 
     cy.findByRole("button", { name: "Math" }).should(
-      "have.class",
-      selectedCategoryClasses
+      "have.attr",
+      "aria-current",
+      "true"
     );
 
     cy.findByTestId("logo").click();
 
     cy.findByRole("button", { name: "Popular" }).should(
-      "have.class",
-      selectedCategoryClasses
+      "have.attr",
+      "aria-current",
+      "true"
     );
 
     cy.findByRole("button", { name: "Math" }).should(
-      "not.have.class",
-      selectedCategoryClasses
+      "not.have.attr",
+      "aria-current",
+      "true"
     );
   });
 });

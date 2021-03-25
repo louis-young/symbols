@@ -18,6 +18,7 @@ export const Category = ({
       <button
         onClick={() => onCategoryChange(category)}
         className={categoryClasses}
+        aria-current={isActive}
       >
         <span className="w-4 block mr-3">{icon}</span>
         {name}

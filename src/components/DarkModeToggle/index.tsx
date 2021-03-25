@@ -19,7 +19,7 @@ export const DarkModeToggle = ({
       onClick={toggleDarkMode}
       className={darkModeToggleClasses}
       title={title}
-      data-testid="light-mode-toggle"
+      aria-label={title}
     >
       {sun}
     </button>
@@ -28,7 +28,7 @@ export const DarkModeToggle = ({
       onClick={toggleDarkMode}
       className={darkModeToggleClasses}
       title={title}
-      data-testid="dark-mode-toggle"
+      aria-label={title}
     >
       {moon}
     </button>

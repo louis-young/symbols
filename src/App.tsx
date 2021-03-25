@@ -30,7 +30,7 @@ export const App = () => {
   const applicationClasses = classNames({ dark: darkMode });
 
   return (
-    <div className={applicationClasses} data-testid="application-wrapper">
+    <div className={applicationClasses} data-testid="application">
       <section className="flex flex-col bg-gray-50 dark:bg-gray-800 min-h-screen md:pl-6 transition-all">
         <Header
           searchQuery={searchQuery}

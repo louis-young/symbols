@@ -1,21 +1,36 @@
-const visibleCopyNotificationClasses = "opacity-100 z-20";
-
 describe("Copy", () => {
-  it.skip("Copies a symbol to the clipboard when clicked.", () => {
+  const copyrightButtonText = "© Copyright";
+  const copiedNotificationText = "Copied";
+
+  beforeEach(() => {
     cy.visit("/");
+  });
 
-    cy.spy(navigator.clipboard, "writeText");
-
-    cy.findByText("Copyright").click();
-
-    cy.findByText("Copyright").within(() =>
-      cy
-        .findByText("Copied")
-        .should("have.class", visibleCopyNotificationClasses)
-    );
-
-    cy.then(() => {
-      expect(navigator.clipboard.writeText).to.be.calledOnce;
+  before(() => {
+    Cypress.on("window:before:load", (window) => {
+      cy.spy(window.navigator.clipboard, "writeText").as("writeText");
     });
+  });
+
+  it("Does not show the copied notification before it is clicked.", () => {
+    cy.findByRole("button", { name: copyrightButtonText })
+      .parent()
+      .within(() =>
+        cy.findByText(copiedNotificationText).should("not.be.visible")
+      );
+  });
+
+  it("Copies a symbol to the clipboard when clicked.", () => {
+    cy.findByRole("button", { name: copyrightButtonText }).click();
+
+    cy.get("@writeText").should("have.been.calledOnceWith", "©");
+  });
+
+  it("Shows the copied notification after it is clicked.", () => {
+    cy.findByRole("button", { name: copyrightButtonText }).click();
+
+    cy.findByRole("button", { name: copyrightButtonText })
+      .parent()
+      .within(() => cy.findByText(copiedNotificationText).should("be.visible"));
   });
 });

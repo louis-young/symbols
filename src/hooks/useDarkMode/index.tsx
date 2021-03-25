@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { DARK_MODE_LOCAL_STORAGE_KEY } from "./constants";
 
 const initialDarkMode =
   (localStorage.darkMode === "true" ||
@@ -29,7 +30,7 @@ export const useDarkMode = () => {
   }, []);
 
   useEffect(() => {
-    localStorage.darkMode = darkMode;
+    localStorage.setItem(DARK_MODE_LOCAL_STORAGE_KEY, JSON.stringify(darkMode));
   }, [darkMode]);
 
   return { darkMode, toggleDarkMode };

@@ -25,7 +25,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "test:e2e": "cypress open",
+    "cypress": "cypress open",
     "format": "prettier --write ./**/*.{ts,tsx,js,html,json,css}",
     "lint": "eslint ./src/**/*.{js,ts,tsx}",
     "eject": "react-scripts eject"
