@@ -1,6 +1,6 @@
 # Symbols
 
-An application to browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click - written in React.
+An application to browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click - built with React.
 
 ![Symbols](documentation/symbols.jpg)
 
