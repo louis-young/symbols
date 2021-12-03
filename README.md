@@ -10,7 +10,7 @@ An application which to browse, filter and search through HTML symbols and copy 
 
 ## Motivation
 
-This was a TypeScript learning exercise that ended up encapsulating Cypress too.
+This was a TypeScript learning exercise that ended up encapsulating Cypress integration testing too.
 
 ### Available Scripts
 
