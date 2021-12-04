@@ -8,7 +8,14 @@ A website to browse, filter and search through thousands of HTML symbols and cop
 
 A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard quickly and easily. 
 
-Built with React including Jest unit tests, Cypress integration tests and a Storybook component library.
+## Technologies
+
+- TypeScript.
+- React.
+- Tailwind.
+- Jest.
+- Cypress.
+- Storybook.
 
 ## Motivation
 
