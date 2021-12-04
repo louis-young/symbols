@@ -1,16 +1,16 @@
 # Symbols
 
-An application to browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click - built with React.
+Browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click.
 
 ![Symbols](documentation/symbols.jpg)
 
 ## Description
 
-An application which to browse, filter and search through HTML symbols and copy them to your clipboard quickly and easily.
+Browse, filter and search through thousands of HTML symbols and copy them to your clipboard quickly and easily.
 
 ## Motivation
 
-This was a TypeScript learning exercise that ended up encapsulating Cypress integration testing too.
+This was a TypeScript learning project that ended up encapsulating Cypress integration testing and Storybook too.
 
 ### Available Scripts
 
