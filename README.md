@@ -1,3 +1,5 @@
+⚠️ Please note that this is an old project and does not reflect the quality of my current work.
+
 # Symbols
 
 A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click.
