@@ -2,7 +2,7 @@
 
 # Symbols
 
-A website to copy HTML symbols.
+A website to easily search and copy HTML symbols.
 
 ![Symbols](documentation/symbols.jpg)
 
