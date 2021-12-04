@@ -2,13 +2,13 @@
 
 # Symbols
 
-A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click.
+A website to copy HTML symbols.
 
 ![Symbols](documentation/symbols.jpg)
 
 ## Description
 
-A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard quickly and easily.
+A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click.
 
 ## Motivation
 
