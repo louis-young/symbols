@@ -6,7 +6,7 @@ A website to browse, filter and search through thousands of HTML symbols and cop
 
 ## Description
 
-A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard quickly and easily.
+A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard quickly and easily. Built in React with Jest unit tests, Cypress integration tests and Storybook.
 
 ## Motivation
 
