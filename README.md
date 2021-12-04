@@ -8,6 +8,10 @@ A website to browse, filter and search through thousands of HTML symbols and cop
 
 A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard quickly and easily. 
 
+## Motivation
+
+This was a TypeScript learning project that ended up encapsulating Cypress integration testing and Storybook too.
+
 ## Technologies
 
 - TypeScript.
@@ -16,10 +20,6 @@ A website to browse, filter and search through thousands of HTML symbols and cop
 - Jest.
 - Cypress.
 - Storybook.
-
-## Motivation
-
-This was a TypeScript learning project that ended up encapsulating Cypress integration testing and Storybook too.
 
 ### Available Scripts
 
