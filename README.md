@@ -1,12 +1,12 @@
 # Symbols
 
-Browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click.
+A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard in one simple click.
 
 ![Symbols](documentation/symbols.jpg)
 
 ## Description
 
-Browse, filter and search through thousands of HTML symbols and copy them to your clipboard quickly and easily.
+A website to browse, filter and search through thousands of HTML symbols and copy them to your clipboard quickly and easily.
 
 ## Motivation
 
